@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/logo" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imagemExibicaoId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="88dp"
@@ -34,6 +34,7 @@
         android:layout_width="192dp"
         android:layout_height="23dp"
         android:layout_marginTop="132dp"
+        android:max="3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
